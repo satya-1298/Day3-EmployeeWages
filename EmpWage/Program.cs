@@ -23,6 +23,10 @@ namespace EmpWage
             //UC3
             PartTimeWage partTimeWage = new PartTimeWage();
             partTimeWage.PartTimeEmp();
+            Console.WriteLine("\n");
+            //UC4
+            SwitchCase switchCase = new SwitchCase();
+            switchCase.EmpWages();
             Console.ReadLine();
         }
     }
