@@ -11,6 +11,13 @@ namespace EmpWage
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee Wage Program");
+            
+            EmpAttendance empAttendance = new EmpAttendance();
+            empAttendance.Check();
+            Console.WriteLine("\n");
+            DailyEmpWage dailyEmpWage = new DailyEmpWage();
+            dailyEmpWage.Display();
+
             Console.ReadLine();
         }
     }
