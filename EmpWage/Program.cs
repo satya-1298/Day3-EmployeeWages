@@ -27,6 +27,10 @@ namespace EmpWage
             //UC4
             SwitchCase switchCase = new SwitchCase();
             switchCase.EmpWages();
+            Console.WriteLine("\n");
+            //UC5
+            EmpMonthWages empMonthWages = new EmpMonthWages();  
+            empMonthWages.MontlyWage();
             Console.ReadLine();
         }
     }
